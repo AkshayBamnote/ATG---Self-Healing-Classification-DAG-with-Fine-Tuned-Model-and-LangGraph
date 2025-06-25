@@ -99,5 +99,5 @@ Final Label: Negative (Corrected via user clarification)
 
 Below is a screenshot of the CLI running the classification pipeline with fallback logic and histogram display:
 
-![CLI Screenshot](./873e217a-3c07-498c-b651-13b219390b6d.png)
+![CLI Screenshot](Screenshot_2025-06-26_014409.png)
 ![Confidence Curve](confidence_curve.png)
