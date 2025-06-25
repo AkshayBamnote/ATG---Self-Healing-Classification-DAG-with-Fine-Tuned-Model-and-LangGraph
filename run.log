@@ -1,0 +1,83 @@
+2025-06-25 03:35:02.543 | INFO     | Input Processed: 'The movie was painfully slow and boring'
+2025-06-25 03:35:02.543 | INFO     | Inference Node: Predicted Negative with confidence 95.00%
+2025-06-25 03:35:02.544 | INFO     | Confidence Check: 95.00% -> Accepted Prediction
+2025-06-25 03:35:02.545 | INFO     | Final Label: Negative (Accepted)
+2025-06-25 03:35:07.855 | INFO     | 
+--- Final Session Statistics ---
+2025-06-25 03:35:07.855 | INFO     | Total Inputs Processed: 1
+2025-06-25 03:35:07.855 | INFO     | Total Fallbacks Triggered: 0
+2025-06-25 03:35:07.855 | INFO     | Average Initial Confidence: 95.00%
+2025-06-25 03:35:08.259 | INFO     | Saved confidence curve plot: logs/confidence_curve.png
+2025-06-25 03:35:08.259 | INFO     | 
+--- End of Session ---
+
+2025-06-25 03:37:22.091 | INFO     | Input Processed: 'The movie was painfully slow and boring'
+2025-06-25 03:37:22.091 | INFO     | Inference Node: Predicted Negative with confidence 95.00%
+2025-06-25 03:37:22.092 | INFO     | Confidence Check: 95.00% -> Accepted Prediction
+2025-06-25 03:37:22.093 | INFO     | Final Label: Negative (Accepted)
+2025-06-25 03:37:34.072 | INFO     | Input Processed: 'The movie was so much intresting'
+2025-06-25 03:37:34.072 | INFO     | Inference Node: Predicted Negative with confidence 68.52%
+2025-06-25 03:37:34.073 | INFO     | Confidence Check: 68.52% -> Fallback Triggered
+2025-06-25 03:37:34.073 | INFO     | Fallback Node: Initial confidence low. Attempting with backup model...
+2025-06-25 03:37:34.488 | INFO     | Backup Model Prediction: Positive (Confidence: 99.38%)
+2025-06-25 03:37:34.488 | INFO     | Fallback Action: Accepted backup model prediction.
+2025-06-25 03:37:34.489 | INFO     | Final Label: Positive (Accepted)
+2025-06-25 03:37:45.254 | INFO     | Input Processed: 'The movie was just'
+2025-06-25 03:37:45.254 | INFO     | Inference Node: Predicted Negative with confidence 73.17%
+2025-06-25 03:37:45.255 | INFO     | Confidence Check: 73.17% -> Fallback Triggered
+2025-06-25 03:37:45.256 | INFO     | Fallback Node: Initial confidence low. Attempting with backup model...
+2025-06-25 03:37:45.444 | INFO     | Backup Model Prediction: Negative (Confidence: 59.76%)
+2025-06-25 03:37:45.444 | INFO     | Fallback Action: Backup model confidence too low. Requesting user clarification.
+2025-06-25 03:37:48.504 | INFO     | Final Label: Positive (Corrected via user clarification)
+2025-06-25 03:37:52.640 | INFO     | 
+--- Final Session Statistics ---
+2025-06-25 03:37:52.640 | INFO     | Total Inputs Processed: 3
+2025-06-25 03:37:52.640 | INFO     | Total Fallbacks Triggered: 2
+2025-06-25 03:37:52.640 | INFO     | Average Initial Confidence: 78.89%
+2025-06-25 03:37:53.074 | INFO     | Saved confidence curve plot: logs/confidence_curve.png
+2025-06-25 03:37:53.074 | INFO     | 
+--- End of Session ---
+
+2025-06-25 03:39:57.286 | INFO     | Input Processed: 'The movie was so much intresting'
+2025-06-25 03:39:57.286 | INFO     | Inference Node: Predicted Negative with confidence 68.52%
+2025-06-25 03:39:57.287 | INFO     | Confidence Check: 68.52% -> Fallback Triggered
+2025-06-25 03:39:57.288 | INFO     | Fallback Node: Initial confidence low. Attempting with backup model...
+2025-06-25 03:39:58.032 | INFO     | Backup Model Prediction: Positive (Confidence: 99.38%)
+2025-06-25 03:39:58.032 | INFO     | Fallback Action: Accepted backup model prediction.
+2025-06-25 03:39:58.033 | INFO     | Final Label: Positive (Accepted)
+2025-06-25 03:40:01.923 | INFO     | 
+--- Final Session Statistics ---
+2025-06-25 03:40:01.923 | INFO     | Total Inputs Processed: 1
+2025-06-25 03:40:01.923 | INFO     | Total Fallbacks Triggered: 1
+2025-06-25 03:40:01.923 | INFO     | Average Initial Confidence: 68.52%
+2025-06-25 03:40:02.327 | INFO     | Saved confidence curve plot: logs/confidence_curve.png
+2025-06-25 03:40:02.327 | INFO     | 
+--- End of Session ---
+
+2025-06-26 01:38:05.643 | INFO     | Input Processed: 'The Movie was painfully slow and boring'
+2025-06-26 01:38:05.662 | INFO     | Inference Node: Predicted Negative with confidence 95.00%
+2025-06-26 01:38:05.710 | INFO     | Confidence Check: 95.00% -> Accepted Prediction
+2025-06-26 01:38:05.712 | INFO     | Final Label: Negative (Accepted)
+2025-06-26 01:38:21.987 | INFO     | Input Processed: 'The Movie was so much intresting'
+2025-06-26 01:38:21.988 | INFO     | Inference Node: Predicted Negative with confidence 68.52%
+2025-06-26 01:38:21.990 | INFO     | Confidence Check: 68.52% -> Fallback Triggered
+2025-06-26 01:38:21.992 | INFO     | Fallback Node: Initial confidence low. Attempting with backup model...
+2025-06-26 01:38:27.003 | INFO     | Backup Model Prediction: Positive (Confidence: 99.29%)
+2025-06-26 01:38:27.004 | INFO     | Fallback Action: Accepted backup model prediction.
+2025-06-26 01:38:27.005 | INFO     | Final Label: Positive (Accepted)
+2025-06-26 01:38:40.317 | INFO     | Input Processed: 'The movie was just'
+2025-06-26 01:38:40.317 | INFO     | Inference Node: Predicted Negative with confidence 73.17%
+2025-06-26 01:38:40.319 | INFO     | Confidence Check: 73.17% -> Fallback Triggered
+2025-06-26 01:38:40.320 | INFO     | Fallback Node: Initial confidence low. Attempting with backup model...
+2025-06-26 01:38:40.775 | INFO     | Backup Model Prediction: Negative (Confidence: 59.76%)
+2025-06-26 01:38:40.775 | INFO     | Fallback Action: Backup model confidence too low. Requesting user clarification.
+2025-06-26 01:38:56.383 | INFO     | Final Label: Negative (Corrected via user clarification)
+2025-06-26 01:39:02.186 | INFO     | 
+--- Final Session Statistics ---
+2025-06-26 01:39:02.187 | INFO     | Total Inputs Processed: 3
+2025-06-26 01:39:02.187 | INFO     | Total Fallbacks Triggered: 2
+2025-06-26 01:39:02.187 | INFO     | Average Initial Confidence: 78.89%
+2025-06-26 01:39:07.078 | INFO     | Saved confidence curve plot: logs/confidence_curve.png
+2025-06-26 01:39:07.079 | INFO     | 
+--- End of Session ---
+
